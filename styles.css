@@ -156,6 +156,3 @@ footer {
 .dashboard-card:hover {
     box-shadow: 0px 0px 15px #f72585;
 }
-td:nth-child(even), th:nth-child(even) {background-color: aliceblue}
-
-ttr:hover {background-color:""}
