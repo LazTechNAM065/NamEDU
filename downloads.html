@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NamEDU - School Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+       
+		<h1><a href="index.html"></a>
+			<img src="../../../Documents/Unnamed Site 2/NamEduConnect Logo.jpg" alt="Logo" style="align-self: flex-start"></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#downloads">Downloads</a></li>
+                <li><a href="#Schools">Schools</a></li>
+				<li><a href="#Teachers">Teachers</a></li>
+                <li><a href="#Parents">Parents</a></li>
+                <li><a href="#students">Students</a></li>
+				<li><a href="#contacts">Contacts</a></li>
+                <li><a href="#login">Login</a></li>
+				 <li><a href="#register">Register</a></li>
+				
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="downloads">
+            <h2>Downloads</h2>
+			<b></b>
+		
+            <table> 
+			<tr>
+				<td> English <button type="button"> <a href="uploads/download icon.png"> img src="uploads/download icon.png" alt="download"</a>  </button> </td>
+				<br>
+				<td> Mathematics</td>
+				<br>
+				<td> Science</td>
+				<br>
+				<td> Physical Science</td>
+				<br>
+				<td> Oshindonga</td>
+				</tr>
+			
+			
+			
+			</table>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 NamEDU. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js')
+            .then(() => console.log('Service Worker Registered'))
+            .catch(error => console.error('Service Worker Error:', error));
+        }
+    </script>
+</body>
+</html>
